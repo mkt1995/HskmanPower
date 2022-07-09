@@ -48,9 +48,13 @@ class DashboardActivity : AppCompatActivity() {
                 dataModel.narrations = jsonObjectData.getString("narration")
 
                 modelDoa.add(dataModel)
+
             }
-            adapterDoa = AdapterDoa(modelDoa)
+            val distinctLocations = modelDoa.distinctBy { it.mid }
+            modelDoa.sortBy { it.mid }
+            adapterDoa = AdapterDoa(distinctLocations as MutableList<ModelDoa>)
             binding!!.rvListDoa.adapter = adapterDoa
+            adapterDoa!!.notifyDataSetChanged()
         }
         catch (e: JSONException) {
             e.printStackTrace()

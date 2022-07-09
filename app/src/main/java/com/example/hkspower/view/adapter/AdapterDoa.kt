@@ -27,7 +27,7 @@ import kotlinx.android.synthetic.main.list_item_doa.view.*
        // listViewHolder.tvId.text = "Mid "+dataModel.mid
         listViewHolder.tvTitle.text = "Mid :"+dataModel.mid
         listViewHolder.tvTid.text = "Tid :"+dataModel.tid
-        listViewHolder.tvArabic.text = dataModel.amt
+        listViewHolder.tvArabic.text = "₹ "+dataModel.amt
         listViewHolder.tvLatin.text = dataModel.narrations
 
     }
