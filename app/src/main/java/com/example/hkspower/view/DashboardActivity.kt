@@ -66,7 +66,6 @@ class DashboardActivity : AppCompatActivity() {
 
                     modelDoa.sortBy { it.mid }
                    // adapterDoa?.notifyDataSetChanged()
-
                 }
             }
             bottomSheetView.findViewById<CheckBox>(R.id.tid_check).setOnCheckedChangeListener { buttonView, isChecked ->

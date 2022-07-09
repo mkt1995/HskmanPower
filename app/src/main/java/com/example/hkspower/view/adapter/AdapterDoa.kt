@@ -17,8 +17,6 @@ import kotlinx.android.synthetic.main.list_item_doa.view.*
     private val modelBacaanListFull: List<ModelDoa>
 
 
-
-
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ListViewHolder {
         val view = LayoutInflater.from(viewGroup.context).inflate(R.layout.list_item_doa, viewGroup, false)
         return ListViewHolder(view)
@@ -26,8 +24,9 @@ import kotlinx.android.synthetic.main.list_item_doa.view.*
 
     override fun onBindViewHolder(listViewHolder: ListViewHolder, i: Int) {
         val dataModel = modelBacaan[i]
-        listViewHolder.tvId.text = dataModel.mid
-        listViewHolder.tvTitle.text = dataModel.tid
+       // listViewHolder.tvId.text = "Mid "+dataModel.mid
+        listViewHolder.tvTitle.text = "Mid :"+dataModel.mid
+        listViewHolder.tvTid.text = "Tid :"+dataModel.tid
         listViewHolder.tvArabic.text = dataModel.amt
         listViewHolder.tvLatin.text = dataModel.narrations
 
@@ -38,15 +37,15 @@ import kotlinx.android.synthetic.main.list_item_doa.view.*
     }
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var tvId: TextView
         var tvTitle: TextView
+        var tvTid: TextView
         var tvArabic: TextView
         var tvLatin: TextView
         var tvTerjemahan: TextView
 
         init {
-            tvId = itemView.tvId
             tvTitle = itemView.tvTitle
+             tvTid = itemView.tvtid
             tvArabic = itemView.tvArabic
             tvLatin = itemView.tvLatin
             tvTerjemahan = itemView.tvTerjemahan
