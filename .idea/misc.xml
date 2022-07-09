@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/bg_rounded_rect.xml" value="0.1945" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/bg_row.xml" value="0.1945" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/ic_login_back.xml" value="0.1945" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/ic_sort.xml" value="0.2115" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/white_curve_rad_24_dp.xml" value="0.1945" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/drawable/white_curve_shape.xml" value="0.1945" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/layout/list_item_doa.xml" value="0.20416666666666666" />
+        <entry key="..\:/manish/HksPower/app/src/main/res/layout/sort_box.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/drawable/ic_login_back.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/ic_login_btn.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/ic_login_top.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/ic_password.xml" value="0.142" />
+        <entry key="app/src/main/res/drawable/ic_user.xml" value="0.142" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2222222222222222" />
+        <entry key="app/src/main/res/layout/rowlayout.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/menu/menu_sort.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

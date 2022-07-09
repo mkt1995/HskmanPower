@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <!--items for a single row of RecyclerView-->
+        <TextView
+            android:id="@+id/mids"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/tids"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="email@email.com"
+            android:textColor="#000"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/amounts"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="e9999999999"
+            android:gravity="right"
+            android:textColor="#000"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/narrations"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="e9999999999"
+            android:gravity="right"
+            android:textColor="#000"
+            android:textSize="12sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

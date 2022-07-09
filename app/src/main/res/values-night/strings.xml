@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sign_up_from_here">sign up from Here</string>
+    <string name="sign_in_now">Sign In Now</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forget_password">Forget Password</string>
+</resources>
