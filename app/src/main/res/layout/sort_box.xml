@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:layout_width="75dp"
+        android:layout_height="4dp"
+        android:background="@drawable/white_curve_shape"
+        android:layout_margin="8dp"
+        android:layout_gravity="center" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_curve_rad_24_dp"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <CheckBox
+                android:id="@+id/mid_check"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Mid"
+                android:gravity="left|center_vertical"/>
+            <CheckBox
+                android:id="@+id/tid_check"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Tids"
+                android:gravity="left|center_vertical"/>
+            <CheckBox
+                android:id="@+id/narrations_check"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Narrations"
+                android:gravity="left|center_vertical"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>
